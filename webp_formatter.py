@@ -7,12 +7,12 @@ def info_programa():
     print()
     print("Conversor de imagen en formato .webp a png por consola")
     print("Creado por Jaider Felipe Santos Garzon")
-    print("Version 1.0")
+    print("Version 1.1")
     print()
 
 def get_file_route():
     try:
-        file_route = sys.argv[1] + ".webp"
+        file_route = sys.argv[1]
     except IndexError:
         file_route = input("Introduce la ruta absoluta a tu archivo: ")
     
@@ -27,7 +27,7 @@ def print_img_info(img):
     print(f"Modo: {img.mode}")
 
     if img.info.get("lossless"):
-        print("Tipo de compresion: Lossy")
+        print("Tipo de compresion: Lossless")
     else:
         print("Tipo de compresion: Lossy")
     print()
@@ -74,4 +74,5 @@ def main():
     
 
 info_programa()
+
 main()
