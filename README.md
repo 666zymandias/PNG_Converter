@@ -8,7 +8,7 @@ Necesario python 3
 
 Para analizar un archivo:
 
-*python webp_formatter ruta al fichero (opcional)*
+*python webp_formatter.py ruta al fichero (opcional)*
 
 Si no se le especifica la ruta al iniciar se le pedirá introducirla al usuario por consola
 
