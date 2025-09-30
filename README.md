@@ -2,8 +2,6 @@
 
 Programa en python que convierte archivos en formato .webp a .png por consola
 
----
-
 ## Uso
 > Necesario python 3
 
