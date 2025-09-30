@@ -8,7 +8,7 @@ Programa en python que convierte archivos en formato .webp a .png por consola
 Para analizar un archivo:
 
 ```bash
-python webp_formatter.py ruta al fichero (opcional)
+python webp_formatter.py ruta_al_fichero (opcional)
 ```
 > Si no se le especifica la ruta al iniciar se le pedirá introducirla al usuario por consola
 
